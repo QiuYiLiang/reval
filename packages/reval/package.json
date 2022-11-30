@@ -1,0 +1,26 @@
+{
+  "name": "@qiuyl/reval",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/reval.cjs.js",
+  "module": "./dist/reval.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/reval.es.js",
+      "require": "./dist/reval.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}

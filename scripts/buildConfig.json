@@ -1,0 +1,7 @@
+{
+  "defaultWatch": "reval",
+  "targets": ["reval", "reval-react", "reval-vue"],
+  "external": [],
+  "globals": [],
+  "sourcemap": true
+}

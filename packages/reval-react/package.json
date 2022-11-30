@@ -1,0 +1,37 @@
+{
+  "name": "@qiuyl/reval-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ],
+    "external": [
+      "react",
+      "reval"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/reval-react.cjs.js",
+  "module": "./dist/reval-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/reval-react.es.js",
+      "require": "./dist/reval-react.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "recat": "^0.0.0",
+    "@qiuyl/reval": "workspace: *"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25"
+  }
+}
